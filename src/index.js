@@ -4,7 +4,7 @@ import './index.css';
 import App from './components/app/app'
 
 
-// import { Component } from 'react';
+// import { Component, Fragment } from 'react';
 // class WhoAmI extends Component{
 //     constructor (props){
 //         super(props);
@@ -28,7 +28,7 @@ import App from './components/app/app'
 //         // const {name, surname, link} = this.props;
 //         const {position, years} = this.state;
 //         return (
-//             <div>
+//             <>
 //                 <button onClick={this.nextYear}>+++</button>
 //                 {/* <h1>My name is {name}, surname - {surname}, age - {this.state.years}</h1> */}
 //                 <h1>Age - {years}, position - {position}</h1>
@@ -37,7 +37,7 @@ import App from './components/app/app'
 //                     <span>ВВедите должность</span>
 //                     <input type='text' onChange={(e) => this.commitInputChanges(e, 'some color')} />
 //                 </form>
-//             </div>
+//             </>
 //         )
 //     }
 // }
